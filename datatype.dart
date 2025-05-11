@@ -39,4 +39,14 @@ void main() {
   print('Ages: $ages');
   ages['David'] = 28;
   print('Updated Ages: $ages');
+
+  //Set
+  Set<int> numbers = {1, 2, 3, 4, 5};
+  print('Numbers: $numbers');
+  numbers.add(6);
+  print('Updated Numbers: $numbers');
+
+  //List
+  List<String> fruits = ['Apple', 'Banana', 'Cherry'];
+  print('Fruits: $fruits');
 }
